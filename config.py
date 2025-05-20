@@ -22,7 +22,7 @@ API_ID = int(environ.get("API_ID", "27166502"))
 API_HASH = environ.get("API_HASH", "35b9c34a2b29b20bdae81d82e2863cec")
 BOT_TOKEN = environ.get("BOT_TOKEN", "7545686315:AAF7V88EmrPgbQaYn-623q6kNxn2qhxIgtc")
 
-PICS = (environ.get('PICS', 'https://envs.sh/rlS.jpg')).split() # Bot Start Picture
+PICS = (environ.get('PICS', 'https://graph.org/file/ed19ee56181e87775c6b9-8d5e39c5992adeaf96.jpg')).split() # Bot Start Picture
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7012709838').split()]
 BOT_USERNAME = environ.get("BOT_USERNAME", "nudixxhotbot") # without @
 PORT = environ.get("PORT", "8080")
