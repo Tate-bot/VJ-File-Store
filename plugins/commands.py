@@ -60,7 +60,7 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('👑 JOIN VIP GROUP 👑', url='https://t.me/nudixfun')
+            InlineKeyboardButton('👑 JOIN VIP GROUP 👑', url='https://t.me/nudixofun')
             ],[
             InlineKeyboardButton('🔍 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url='https://t.me/supptrt_group'),
             InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/tate_botX')
@@ -341,7 +341,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('👑 JOIN VIP GROUP 👑', url='https://t.me/nudixfun')
+            InlineKeyboardButton('👑 JOIN VIP GROUP 👑', url='https://t.me/nudixofun')
         ],[
             InlineKeyboardButton('🔍 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url='https://t.me/supptrt_group'),
             InlineKeyboardButton('🤖 ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url='https://t.me/supptrt_group')
